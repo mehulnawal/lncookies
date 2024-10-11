@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | L. N. Cookies (Homemade)</title>
 
+    <!-- swiper-js css link -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- font css link -->
+    <link rel="stylesheet" href="./assets/css/font.css">
+
     <!-- logo img link -->
-    <link rel="icon" href="./assets/images/logo_dark.png">
+    <link rel="icon" href="./assets/images/chocolate-cookies.png">
 
     <!-- Bootstrap icons css link -->
     <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
@@ -26,16 +32,14 @@
 <body>
 
     <!-- header start -->
-    <header>
-        <i class="bi bi-shield-fill-plus"></i>
+    <header class="">
         <!-- navbar start -->
-        <nav>
+        <nav class="bg-[#6C4E31] text-white position-absolute z-10 top-0 left-0 w-100">
             <div class="container">
-
-                <div class="nav-links">
-                    <ul>
+                <div class="navbar flex items-center justify-between  text-white">
+                    <ul class="nav-links gap-4 order-0 text-[18px] d-none d-md-flex">
                         <li>
-                            <a href="javascript:void(0)">Home</a>
+                            <a href="./index.html">Home</a>
                         </li>
 
                         <li>
@@ -45,24 +49,279 @@
                         <li>
                             <a href="javascript:void(0)">Contact</a>
                         </li>
+
+
+                        <li>
+                            <a href="javascript:void(0)">Contact</a>
+                        </li>
+
+
+                        <li>
+                            <a href="javascript:void(0)">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="logo ">
+                        <a href="./index.html">
+                            <img class="" src="./assets/images/logo_white.png" alt="">
+                        </a>
+                    </div>
+
+                    <ul class="nav-right flex text-[20px] gap-2 items-center">
+
+                        <li class="fullscreen-li" id="btnFullscreen">
+                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Fullscreen">
+                                <i class="bi bi-fullscreen"></i>
+
+                            </a>
+                        </li>
+
+                        <li class="fullscreen-exit-li">
+                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Fullscreen exit">
+                                <i class="bi bi-fullscreen-exit"></i>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Switch to dark theme">
+                                <i class="bi bi-brightness-high"></i>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Switch to light theme">
+                                <i class="bi bi-moon"></i>
+                            </a>
+                        </li>
+
+                        <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                            <a href="javascript:void(0)">
+                                <div class="menu-main">
+                                    <div class="menu1 menu"></div>
+                                    <div class="menu2 menu"></div>
+                                    <div class="menu3 menu"></div>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-
-                <div class="logo">
-                    <img src="./assets/images/logo_white.png" alt="">
-                </div>
-
-                <div class="nav-right"></div>
             </div>
         </nav>
-        <!-- navbar end -->
 
+        <!-- offcanvasRight - navbar - nav-right - menu start -->
+        <div class="offcanvas-end offcanvas" id="offcanvasRight" tabindex="-1">
+            <div class="offcanvas-header"></div>
+            <div class="offcanvas-title"></div>
+
+            <div class="offcanvas-body px-8">
+
+                <div class="flex items-center justify-between">
+
+                    <div class="logo w-100">
+                        <img class="w-[60px]" src="./assets/images/logo_dark.png" alt="">
+                    </div>
+
+                    <button type="button" class="btn-close mx-auto" data-bs-dismiss="offcanvas" data-bs-toggle="tooltip"
+                        data-bs-placement="top" data-bs-title="Close" aria-label="Close"></button>
+                </div>
+
+                <h2 class="mt-4">we make the Best burger in your town</h2>
+
+                <ul class="nav-links mt-4 gap-2 order-0 text-[18px] d-flex flex-column d-md-none">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">Contact</a>
+                    </li>
+
+
+                    <li>
+                        <a href="javascript:void(0)">Contact</a>
+                    </li>
+
+
+                    <li>
+                        <a href="javascript:void(0)">Contact</a>
+                    </li>
+
+                </ul>
+
+                <p class="mt-4">he mouth-watering aroma of sizzling burgers now fills the streets of Birmingham thanks
+                    to the
+                    passionate pursuit of three brothers, the British founders of Fazfood.</p>
+
+                <div class="address mt-4">
+                    Address -
+                    103 Aakruti,
+                    Sweet Home,<br />
+                    Nr. Meghna Park,
+                    Beside Kotak Mahindra Bank, <br />
+                    Citylight, Surat - 395007
+                </div>
+
+                <div class="number mt-4">
+                    <a href="tel:9978916262" class="text-[19px]">
+                        9978916262
+                    </a>
+                </div>
+
+                <div class="mail mt-3 text-[19px]">
+                    <a href="mailto: sonunawal02@gmail.com">
+                        sonunawal02@gmail.com
+                    </a>
+                </div>
+
+                <div class="photo-collage">
+                    <div class="row">
+                        <div class="col-4">
+
+                        </div>
+
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- offcanvasRight - navbar - nav-right - menu end -->
+
+        <!-- navbar end -->
     </header>
     <!-- header start -->
+
+    <!-- main start -->
+    <main class="bg-[#FBF8F2]">
+
+        <!-- banner start -->
+        <div class="banner-main1 vh-100 w-100">
+            <!-- <div class="container"> -->
+            <div class="swiper mySwiper">
+
+                <div class="swiper-wrapper">
+                    <div
+                        class="swiper-slide bg-[url('../images/banner-bg.6jpg.png')] bg-cover row p-11 justify-center items-center vh-100 m-0">
+                        <div class="col-6 flex flex-column align-items-end text-white">
+                            <h2>Assorted cookies </h2>
+                            <h2>Best Atta cookies</h2>
+                            <p>kkas</p>
+                        </div>
+                        <div class="col-6">
+                            <!-- <img class="" src="./assets/images/cookies-all-banner-bg-removebg-preview (1).png" alt=""> -->
+                        </div>
+                    </div>
+
+                    <div
+                        class="swiper-slide bg-[url('../images/banner-bg.6jpg.png')] bg-cover row p-11 justify-center items-center vh-100 m-0 w-100">
+                        <div class="col-6 flex flex-column align-items-end text-white ">
+                            <h2>Brookies </h2>
+                            <h2>Combination of Brownies and Atta Cookies</h2>
+                            <p>kkas</p>
+                        </div>
+                        <div class="col-6">
+                            <!-- <img class="" src="./assets/images/brookies-banner.png" alt=""> -->
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">Slide 3</div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- </div> -->
+        </div>
+        <!-- banner end -->
+
+    </main>
+    <!-- main end -->
 
     <!-- bootstrap js link -->
     <script src="./assets/js/bootstrap.bundle.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script for tooltip bootstrap  -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+    <!-- script for maximize screen -->
+    <script>
+        function toggleFullscreen(elem) {
+            elem = elem || document.documentElement;
+            if (!document.fullscreenElement && !document.mozFullScreenElement &&
+                !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                } else if (elem.mozRequestFullScreen) {
+                    elem.mozRequestFullScreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+            }
+        }
+
+        document.getElementById('btnFullscreen').addEventListener('click', function () {
+            toggleFullscreen();
+        });
+
+        document.getElementById('exampleImage').addEventListener('click', function () {
+            toggleFullscreen(this);
+        });
+    </script>
+
+    <!-- swiper-js js link -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- swiper-js script -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 
 </body>
 

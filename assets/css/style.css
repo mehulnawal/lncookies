@@ -1,3 +1,73 @@
 /* common css start */
+:root {
+    --exo-font: "Exo", sans-serif;
+    --roboto-font: "Roboto", sans-serif;
+}
 
 /* common css end */
+
+/* header start */
+
+/* navbar start */
+nav {
+    .navbar {
+
+        .nav-links {
+            font-family: var(--roboto-font);
+        }
+
+        .logo {
+            order: -1;
+
+            img {
+                width: 70px;
+            }
+        }
+
+        .nav-right {
+            font-family: var(--roboto-font);
+
+            .bi-fullscreen-exit,
+            .bi-moon {
+                display: none;
+            }
+
+            .menu-main {
+                .menu {
+                    width: 25px;
+                    height: 1.6px;
+                    background-color: white;
+                    margin: 5px auto;
+                }
+
+                .menu1,
+                .menu3 {
+                    width: 18px;
+                    transition: all 0.4s ease-in-out;
+                }
+            }
+
+            .menu-main:hover .menu1,
+            .menu-main:hover .menu3 {
+                width: 25px;
+            }
+        }
+    }
+}
+
+.bi-fullscreen-exit {
+    display: none;
+    /* background: url('../images/'); */
+}
+
+/* navbar end */
+
+/* header end */
+
+/* main start */
+
+/* banner start */
+
+/* banner end */
+
+/* main end */

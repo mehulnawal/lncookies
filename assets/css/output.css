@@ -663,12 +663,24 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .float-start {
@@ -715,8 +727,29 @@ video {
   clear: none;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.me-0 {
+  margin-inline-end: 0px;
 }
 
 .box-border {
@@ -816,6 +849,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.w-\[60px\] {
+  width: 60px;
 }
 
 .w-\[this-is\\\\\] {
@@ -1348,6 +1385,14 @@ video {
   justify-items: stretch;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1788,9 +1833,47 @@ video {
   border-style: none;
 }
 
+.bg-\[\#6C4E31\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(108 78 49 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FBF8F2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 248 242 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/images\/banner-bg\.jpg\'\)\] {
+  background-image: url('../images/banner-bg.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/banner-bg2\.jpg\'\)\] {
+  background-image: url('../images/banner-bg2.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/banner-bg3\.jpg\'\)\] {
+  background-image: url('../images/banner-bg3.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/\'\)\] {
+  background-image: url('../images/');
+}
+
+.bg-\[url\(\'\.\.\/images\/banner\'\)\] {
+  background-image: url('../images/banner');
+}
+
+.bg-\[url\(\'\.\.\/images\/banner-bg\.6jpg\.png\'\)\] {
+  background-image: url('../images/banner-bg.6jpg.png');
 }
 
 .decoration-slice {
@@ -1811,6 +1894,10 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -1903,6 +1990,14 @@ video {
      object-fit: scale-down;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-11 {
+  padding: 2.75rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1916,6 +2011,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .text-left {
@@ -1974,9 +2074,16 @@ video {
   vertical-align: super;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[19px\] {
+  font-size: 19px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .font-bold {
