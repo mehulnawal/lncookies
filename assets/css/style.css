@@ -1,7 +1,33 @@
 /* common css start */
 :root {
-    --exo-font: "Exo", sans-serif;
+    --exo-font: "Exo 2", sans-serif;
     --roboto-font: "Roboto", sans-serif;
+    --lora-font: 'Lora';
+    --poppins-font: 'Poppins';
+}
+
+body {
+    font-family: var(--poppins-font)s;
+}
+
+.li-hover {
+    position: relative;
+    transition: all 0.6s ease-in-out;
+}
+
+.li-hover:before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+    transition: all 0.6s ease-in-out;
+    display: inline;
+}
+
+.li-hover:hover:before {
+    width: 100%;
 }
 
 /* common css end */
@@ -13,7 +39,9 @@ nav {
     .navbar {
 
         .nav-links {
-            font-family: var(--roboto-font);
+            font-family: var(--lora-font);
+            font-style: normal;
+            font-weight: 400;
         }
 
         .logo {
@@ -57,7 +85,7 @@ nav {
 
 .bi-fullscreen-exit {
     display: none;
-    /* background: url('../images/'); */
+    background: url('../images/why_choose_us-img1.jpg');
 }
 
 /* navbar end */
@@ -67,7 +95,103 @@ nav {
 /* main start */
 
 /* banner start */
+.banner-main {
+
+    .banner-left {
+        margin-top: 100px;
+        color: #FEFAE0;
+        font-family: var(--poppins-font);
+
+        h5 {
+            font-family: var(--lora-font);
+        }
+
+        h3 {
+            font-size: 130px;
+            line-height: 130px;
+
+        }
+
+        button {
+            margin-top: 30px;
+            font-size: 25px;
+            border: 2px solid white;
+            padding: 14px;
+
+
+        }
+
+    }
+
+}
 
 /* banner end */
 
+/* why choose us start */
+.choose {
+    .col-4 {
+        .choose-col-4-title {
+            font-family: var(--lora-font);
+        }
+    }
+}
+
+/* why choose us end */
+
+/* best products start */
+.best {
+    .col-3 {
+        h5 {
+            font-family: var(--lora-font);
+        }
+    }
+}
+
+/* best products end */
+
+
+/* slide 1 start  */
+/* photos gallery start  */
+
+.swiper,
+.mySwiper2 {
+    width: 100%;
+    height: 300px;
+    padding: 20px 0px;
+}
+
+.swiper-slide,
+.mySwiper2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.swiper-slide img,
+.mySwiper2 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* slide 1 end  */
+/* photos gallery end  */
 /* main end */
+
+/* footer start */
+footer {
+    font-family: var(--poppins-font);
+
+    .footer-li-title,
+    .copywrite {
+        font-family: var(--lora-font);
+    }
+}
+
+/* footer end */
