@@ -96,7 +96,6 @@ nav {
 
 /* banner start */
 .banner-main {
-
     .banner-left {
         margin-top: 100px;
         color: #FEFAE0;
@@ -133,24 +132,6 @@ nav {
 
         }
 
-    }
-
-    .single-cookie1,
-    .single-cookie2,
-    .single-cookie3 {
-        /* transform: rotateX(240deg); */
-        position: absolute;
-        top: -20%;
-    }
-
-    .single-cookie2{
-        left: 20%;
-        top: -40%;
-    }
-
-    .single-cookie3{
-        left: 0%;
-        top: -60%;
     }
 }
 

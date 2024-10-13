@@ -35,7 +35,7 @@
 <body>
 
     <!-- header start -->
-    <header class="bg-[#BC6C25] w-100 position-absolute top-0 z-10 left-0 shadow ">
+    <header data-scroll-section class="bg-[#BC6C25] w-100 position-absolute top-0 z-10 left-0 shadow ">
         <!-- navbar start -->
         <nav class="">
             <div class="container mx-auto px-4 ">
@@ -202,12 +202,12 @@
     <!-- header start -->
 
     <!-- main start -->
-    <main class="bg-[#FBF8F2]">
+    <main data-scroll-section class="bg-[#FBF8F2]">
 
         <!-- banner start -->
-        <section class="banner-main bg-[#bc6c25] select-none h-100 w-100  ">
+        <section class="banner-main bg-[#bc6c25] select-none w-100 h-100">
             <div class="container mx-auto px-4 ">
-                <div class="row items-center">
+                <div class="row flex items-center">
 
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 banner-left">
 
@@ -227,14 +227,21 @@
 
                     </div>
 
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 h-100 self-end position-relative">
-                        <img class="w-[300px]" src="./assets/images/chocolate-cookies-bowl-removebg-preview.png" alt="">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 h-100 flex ">
 
-                        <img class="w-[150px] single-cookie1" src="./assets/images/single-cocolate-cookie-removebg-preview.png" alt="">
+                        <div>
+                            <img class="single-cookie1 w-[120px]" src="./assets/images/cookiesp1.png" alt="">
 
-                        <img class="w-[150px] single-cookie2" src="./assets/images/single-cocolate-cookie-removebg-preview.png" alt="">
+                            <img class="single-cookie2 w-[120px]" src="./assets/images/cookiesp2.png" alt="">
+                        </div>
 
-                        <img class="w-[150px] single-cookie3" src="./assets/images/single-cocolate-cookie-removebg-preview.png" alt="">
+                        <div>
+                            <img class="single-cookie3 w-[110px] -ms-2" src="./assets/images/cookiesp4.png" alt="">
+
+                            <img class="single-cookie4 w-[113px] -mt-[31px] -ms-2 " src="./assets/images/cookiesp3.png"
+                                alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -245,7 +252,7 @@
         <section class="choose mt-20">
             <div class="container mx-auto px-4 ">
 
-                <h4 class="text-center text-[21px] fw-semibold text-[#DDA15E]">Why choose L. N. Cookies (Homemade) ?
+                <h4 class="text-center text-[21px] fw-semibold text-[#DDA15E]">Why choose us ?
                 </h4>
 
                 <h2 class="text-center text-[32px] fw-semibold mt-3">Burgers made with Love and Care</h2>
@@ -443,7 +450,7 @@
     <!-- main end -->
 
     <!-- footer start -->
-    <footer class=" bg-gray-900 bg-cover text-white h-100 w-100 py-5 px-3">
+    <footer data-scroll-section class="position-relative z-10 bg-gray-900 bg-cover text-white h-100 w-100 py-5 px-3">
         <div class="container">
 
             <div class="row items-start">
@@ -648,7 +655,6 @@
     <!-- main script link -->
     <script src="./assets/js/gsap.js"></script>
 
-    gsap
     content
     images
 

@@ -1,0 +1,64 @@
+/* common css start */
+:root {
+    --exo-font: "Exo 2", sans-serif;
+    --roboto-font: "Roboto", sans-serif;
+    --lora-font: 'Lora';
+    --poppins-font: 'Poppins';
+}
+
+body {
+    font-family: var(--poppins-font)s;
+    background-color: #FBF8F2;
+}
+
+/* common css start */
+
+
+/* banner start */
+.banner-main {
+    font-family: var(--poppins-font);
+}
+
+/* banner start */
+
+/* get in touch with us start */
+.get {
+    font-family: var(--poppins-font);
+
+    .col-4 {
+
+        /* i {
+            position: relative;
+            color: black;
+        }
+
+        i:before {
+            content: '';
+            position: absolute;
+            background-color: #FFCC19;
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            top: 0;
+        } */
+
+        h5 {
+            font-family: var(--lora-font);
+        }
+    }
+}
+
+/* get in touch with us end */
+
+/* message start */
+form {
+    width: 80%;
+}
+
+@media (max-width:757px) {
+    form {
+        width: 100%;
+    }
+}
+
+/* message end */
