@@ -112,9 +112,9 @@ nav {
 
         }
 
-        @media (max-width:757px){
+        @media (max-width:757px) {
 
-            h5{
+            h5 {
                 font-size: 23px;
             }
 
@@ -135,6 +135,23 @@ nav {
 
     }
 
+    .single-cookie1,
+    .single-cookie2,
+    .single-cookie3 {
+        /* transform: rotateX(240deg); */
+        position: absolute;
+        top: -20%;
+    }
+
+    .single-cookie2{
+        left: 20%;
+        top: -40%;
+    }
+
+    .single-cookie3{
+        left: 0%;
+        top: -60%;
+    }
 }
 
 /* banner end */
