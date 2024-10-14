@@ -1,0 +1,54 @@
+/* common css start */
+:root {
+    --exo-font: "Exo 2", sans-serif;
+    --roboto-font: "Roboto", sans-serif;
+    --lora-font: 'Lora';
+    --poppins-font: 'Poppins';
+}
+
+body {
+    font-family: var(--poppins-font)s;
+}
+
+/* common css start */
+
+/* banner start */
+.banner-main {
+    font-family: var(--poppins-font);
+}
+
+/* banner start */
+
+/* product srt */
+.product {
+    font-family: var(--poppins-font);
+
+    .sidebar {
+        .sidebar-title {
+            font-family: var(--lora-font);
+        }
+
+        .product-li {
+            li {
+
+                a {
+                    transition: all 0.4s ease-in-out;
+                }
+
+                a:hover h4 {
+                    color: #B17B44;
+                }
+            }
+        }
+    }
+
+    .product-right {
+        font-family: var(--poppins-font);
+
+        .product-name {
+            font-family: var(--lora-font);
+        }
+    }
+}
+
+/* product end */

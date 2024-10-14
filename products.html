@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | L. N. Cookies (Homemade)</title>
+
+    <!-- locomotive css link -->
+    <link rel="stylesheet" href="./assets/css/locomotive-scroll-cs.css">
+
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- swiper-js css link -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- font css link -->
+    <link rel="stylesheet" href="./assets/css/font.css">
+
+    <!-- logo img link -->
+    <link rel="icon" href="./assets/images/chocolate-cookies.png">
+
+    <!-- Bootstrap icons css link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- tailwind css link -->
+    <link rel="stylesheet" href="./assets/css/output.css">
+
+    <!-- main css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- product css link -->
+    <link rel="stylesheet" href="./assets/css/product.css">
+</head>
+
+<body class="bg-[#FBF8F2]">
+
+    <!-- header start -->
+    <header data-scroll-section class="bg-[#BC6C25] w-100 position-absolute top-0 z-10 left-0 shadow ">
+        <!-- navbar start -->
+        <nav class="">
+            <div class="container mx-auto px-4 ">
+                <div class="navbar flex items-center justify-between  text-white">
+                    <ul class="nav-links gap-4 order-0 text-[22px] d-none d-md-flex">
+                        <li class="li-hover">
+                            <a href="./index.html">Home</a>
+                        </li>
+
+                        <!-- <li class="li-hover">
+                            <a href="./about.html">About us</a>
+                        </li> -->
+
+                        <li class="li-hover">
+                            <a href="./products.html">Products</a>
+                        </li>
+
+                        <!-- <li class="li-hover">
+                            <a href="./exhibition.html">Exhibition</a>
+                        </li> -->
+
+                        <li class="li-hover">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="logo ">
+                        <a href="./index.html">
+                            <img class="" src="./assets/images/logo_white.png" alt="">
+                        </a>
+                    </div>
+
+                    <ul class="nav-right flex text-[25px] gap-2 items-center">
+
+                        <li class="fullscreen-li" id="btnFullscreen">
+                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Fullscreen">
+                                <i class="bi bi-fullscreen"></i>
+
+                            </a>
+                        </li>
+
+                        <li class="fullscreen-exit-li">
+                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Fullscreen exit">
+                                <i class="bi bi-fullscreen-exit"></i>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Switch to dark theme">
+                                <i class="bi bi-brightness-high"></i>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Switch to light theme">
+                                <i class="bi bi-moon"></i>
+                            </a>
+                        </li>
+
+                        <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                            <a href="javascript:void(0)">
+                                <div class="menu-main">
+                                    <div class="menu1 menu"></div>
+                                    <div class="menu2 menu"></div>
+                                    <div class="menu3 menu"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- offcanvasRight - navbar - nav-right - menu start -->
+        <div class="offcanvas-end offcanvas" id="offcanvasRight" tabindex="-1">
+            <div class="offcanvas-header"></div>
+            <div class="offcanvas-title"></div>
+
+            <div class="offcanvas-body px-8">
+
+                <div class="flex items-center justify-between">
+
+                    <div class="logo w-100">
+                        <img class="w-[60px]" src="./assets/images/logo_dark.png" alt="">
+                    </div>
+
+                    <button type="button"
+                        class="btn-close mx-auto hover:rotate-[180deg] rotate-[180deg] hover:text-[#DDA15E]"
+                        data-bs-toggle="offcanvas"></button>
+                </div>
+
+                <h2 class="mt-4 fw-semibold text-[22px] text-capitalize">we make the Best burger in your town</h2>
+
+                <ul class="nav-links mt-4 gap-2 order-0 text-[18px] d-flex flex-column d-md-none">
+                    <a href="./index.html">Home</a>
+                    </li>
+
+                    <!-- <li class="li-hover disabled" aria-disabled="true">
+                        <a href="./about.html">About us</a>
+                    </li> -->
+
+                    <li class="li-hover">
+                        <a href="./products.html">Products</a>
+                    </li>
+
+                    <!-- <li class="li-hover">
+                        <a href="./exhibition.html">Exhibition</a>
+                    </li> -->
+
+                    <li class="li-hover">
+                        <a href="./contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+                <p class="mt-4">he mouth-watering aroma of sizzling burgers now fills the streets of Birmingham thanks
+                    to the
+                    passionate pursuit of three brothers, the British founders of Fazfood.</p>
+
+                <div class="address mt-4">
+                    103 Aakruti flats, Sweet Home, Nr. Meghna Park, Beside Kotak Mahindra Bank, Citylight, Surat,
+                    Gujarat-395007.
+
+                    <br />
+
+                    <span>Mo.:</span><a href="tel:9978916262" class="ms-2 text-[#DDA15E]">+91 99789 16262</a>
+                </div>
+
+                <div class="mail mt-3 text-[19px]">
+                    <a href="mailto: sonunawal02@gmail.com" class="text-[#DDA15E]">
+                        sonunawal02@gmail.com
+                    </a>
+                </div>
+
+                <div class="photo-collage">
+                    <div class="row">
+                        <div class="col-4">
+
+                        </div>
+
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
+
+                        <div class="col-4"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- offcanvasRight - navbar - nav-right - menu end -->
+
+        <!-- navbar end -->
+    </header>
+    <!-- header start -->
+
+    <!-- main srt -->
+    <main data-scroll-section class=" h-100 mb-20">
+
+        <!-- banner start -->
+        <section
+            class="banner-main w-100 bg-[url('../images/contact-banner.jpg')] bg-cover bg-left h-[400px]  flex items-center justify-center text-white">
+            <h3 class="text-5xl">Products</h3>
+        </section>
+        <!-- banner end -->
+
+        <!-- products section srt -->
+        <section class="product mt-10 px-2 flex">
+            <div class="sidebar w-[300px]">
+                <h3 class="font-bold text-uppercase text-[22px] sidebar-title">Categories</h3>
+                <hr class="mt-3" />
+
+                <ul class="product-li mt-3">
+                    <li>
+                        <a href="./products.html" class="flex gap-2 items-center text-[20px]">
+                            <i class="bi bi-cookie "></i>
+                            <h4 class="font-semibold text-[#B17B44]">
+                                Assorted Cookies</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="mt-4 flex gap-2 items-center text-[20px]">
+                            <img class="w-[20px]" src="./assets/images/juice-icon.png" alt="">
+                            <h4 class="font-semibold ">
+                                Healthy tonic</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="mt-4 flex gap-2 items-center text-[20px]">
+                            <img class="w-[20px]" src="./assets/images/flour-icon.png" alt="">
+                            <h4 class="font-semibold ">
+                                Wholesome flour</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="mt-4 flex gap-2 items-center text-[20px]">
+                            <img class="w-[20px]" src="./assets/images/mukhwass-icon.webp" alt="">
+                            <h4 class="font-semibold ">
+                                Mukhwass</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="mt-4 flex gap-2 items-center text-[20px]">
+                            <img class="w-[20px]" src="./assets/images/sugar-free-icon.png" alt="">
+                            <h4 class="font-semibold ">
+                                Sugar-Free Millet Treats</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="mt-4 flex gap-2 items-center text-[20px]">
+                            <img class="w-[20px]" src="./assets/images/winter-icon.png" alt="">
+                            <h4 class="font-semibold ">
+                                Winter items</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="product-right w-[100%] ms-20">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 col-12 px-3 group">
+                        <div class="bg-white text-center px-4 rounded-3xl position-relative mt-48 ">
+
+                            <img class="w-[250px] -top-48 position-absolute"
+                                src="./assets/images/products-img-sample.png" alt="">
+
+                            <h3 class="product-name my-4 pt-20 text-[21px] fw-semibold">Sample product</h3>
+
+                            <p class="product-details text-justify">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non, eius illum
+                                sapiente ipsa consequuntur nostrum necessitatibus quos sit, ratione molestiae nemo autem
+                                fugiat aspernatur, minus eum vel illo.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-12 px-3 group">
+                        <div class="bg-white text-center px-4 rounded-3xl position-relative mt-48 ">
+
+                            <img class="w-[250px] -top-48 position-absolute"
+                                src="./assets/images/products-img-sample.png" alt="">
+
+                            <h3 class="product-name my-4 pt-20 text-[21px] fw-semibold">Sample product</h3>
+
+                            <p class="product-details text-justify">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non, eius illum
+                                sapiente ipsa consequuntur nostrum necessitatibus quos sit, ratione molestiae nemo autem
+                                fugiat aspernatur, minus eum vel illo.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-12 px-3 group">
+                        <div class="bg-white text-center px-4 rounded-3xl position-relative mt-48 ">
+
+                            <img class="w-[250px] -top-48 position-absolute"
+                                src="./assets/images/products-img-sample.png" alt="">
+
+                            <h3 class="product-name my-4 pt-20 text-[21px] fw-semibold">Sample product</h3>
+
+                            <p class="product-details text-justify">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non, eius illum
+                                sapiente ipsa consequuntur nostrum necessitatibus quos sit, ratione molestiae nemo autem
+                                fugiat aspernatur, minus eum vel illo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- products section end -->
+
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer data-scroll-section class=" bg-gray-900 bg-cover text-white h-100 w-100 py-5 px-3">
+        <div class="container">
+
+            <div class="row items-start">
+                <div class="col-lg-4 col-12">
+
+                    <div class="logo mb-3">
+                        <a href="./index.html">
+                            <img class="w-[70px]" src="./assets/images/logo_white.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="address">
+                        103 Aakruti flats, Sweet Home, Nr. Meghna Park, Beside Kotak Mahindra Bank, Citylight, Surat,
+                        Gujarat-395007.
+
+                        <br />
+
+                        <span>Mo.:</span><a href="tel:9978916262" class="ms-2 text-[#DDA15E]">+91 99789 16262</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-lg-0 mt-4 flex justify-md-center justify-start">
+                    <ul>
+                        <li class="footer-li-title uppercase mb-3 text-[21px]"> Products</li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Assorted Cookies</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Healthy tonic</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Wholesome flour</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Mukhwass</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Sugar-Free Millet Treats</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Seasonable items</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 mt-lg-0 flex justify-md-center justify-start">
+                    <ul class="">
+                        <li class="footer-li-title uppercase mb-3 text-[21px]"> Quick links</li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./index.html">Home</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">About us</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Contact us</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Products</a>
+                        </li>
+
+                        <li class="hover:text-[#fefae0]">
+                            <a href="./products.html">Exhibition</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr / class="mt-3">
+
+            <p class="copywrite text-center flex flex-wrap items-center justify-center w-100 mt-3">
+                Copyright © 2023 <span class="text-[#DDA15E] ms-1"> Mehul Nawal</span>All rights reserved
+            </p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- bootstrap js link -->
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script for tooltip bootstrap  -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+    <!-- script for maximize screen -->
+    <script>
+        function toggleFullscreen(elem) {
+            elem = elem || document.documentElement;
+            if (!document.fullscreenElement && !document.mozFullScreenElement &&
+                !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                } else if (elem.mozRequestFullScreen) {
+                    elem.mozRequestFullScreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+            }
+        }
+
+        document.getElementById('btnFullscreen').addEventListener('click', function () {
+            toggleFullscreen();
+        });
+
+        document.getElementById('exampleImage').addEventListener('click', function () {
+            toggleFullscreen(this);
+        });
+    </script>
+
+    <!-- swiper-js js link -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- swiper-js script banner -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- swiper js script photo gallery slide 1  -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            loop: true,
+            autoplay: {
+                duration: 200,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+
+    <!-- gsap script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- scrollTrigger script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- locomotive js script -->
+    <script src="./assets/js/locomotive-scroll-js.js"></script>
+
+    <!-- main script link -->
+    <script src="./assets/js/gsap.js"></script>
+
+    <!-- aos script  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+
+
+
+</body>
+
+</html>
