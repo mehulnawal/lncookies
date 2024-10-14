@@ -9,6 +9,9 @@
     <!-- locomotive css link -->
     <link rel="stylesheet" href="./assets/css/locomotive-scroll-cs.css">
 
+    <!-- aos scroll link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- swiper-js css link -->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
@@ -204,6 +207,7 @@
     </header>
     <!-- header start -->
 
+    <!-- main srt -->
     <main class="">
 
         <!-- banner start -->
@@ -219,7 +223,7 @@
                 <h4 class="text-4xl text-uppercase font-semibold text-center">Get in touch with us</h4>
 
                 <div class="row mt-16">
-                    <div class="col-lg-4 col-md-6 col-12 px-3  ">
+                    <div class="col-lg-4 col-md-6 col-12 px-3" data-aos="fade">
                         <div class="rounded text-center h-100 pt-3 border-1 border-gray-700">
                             <i class="bi bi-house-door text-[35px] "></i>
 
@@ -233,7 +237,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mt-5 mt-lg-0 col-md-6 col-12 px-3">
+                    <div class="col-lg-4 mt-5 mt-lg-0 col-md-6 col-12 px-3" data-aos="fade">
                         <div class="rounded text-center h-100 border-1 border-gray-700  pt-3">
                             <i class="bi bi-phone text-[35px]"></i>
 
@@ -252,7 +256,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mt-5 mt-lg-0 col-md-6 col-12 px-3  ">
+                    <div class="col-lg-4 mt-5 mt-lg-0 col-md-6 col-12 px-3" data-aos="fade">
                         <div class="rounded text-center border-1 border-gray-700 h-100 pt-3">
                             <i class="bi bi-clock text-[35px]"></i>
 
@@ -269,7 +273,7 @@
         <!-- get in touch with us end -->
 
         <!-- Send A Message start -->
-        <div class="message mt-16">
+        <div class="message mt-16" data-aos="zoom-in">
             <h3 class="text-[30px] font-semibold text-center">Send A Message</h3>
 
             <div class="container">
@@ -307,6 +311,7 @@
         </div>
         <!-- Send A Message end -->
     </main>
+    <!-- main end -->
 
 
     <!-- footer start -->
@@ -522,7 +527,7 @@
     <script>
         $('#contactForm').on('submit', function (event) {
             event.preventDefault(); // Prevent the default form submission
-    
+
             // Perform validation
             const name = $('input[name="name"]').val().trim();
             const email = $('input[name="email"]').val().trim();
@@ -531,42 +536,42 @@
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             const nameRegex = /^[A-Za-z\s]+$/; // Only letters and spaces allowed
             const numberRegex = /^[0-9]{10}$/; // Exactly 10 digits allowed
-    
+
             // Reset previous success message
             const successMessage = $('#successMessage');
             successMessage.hide();
-    
+
             // Validate form inputs
             if (name === '') {
                 alert('Please enter your name.');
                 return false;
             }
-    
+
             if (!nameRegex.test(name)) {
                 alert('Name should only contain letters and spaces.');
                 return false;
             }
-    
+
             if (email === '' || !emailRegex.test(email)) {
                 alert('Please enter a valid email.');
                 return false;
             }
-    
+
             if (number === '') {
                 alert('Please enter your number.');
                 return false;
             }
-    
+
             if (!numberRegex.test(number)) {
                 alert('Number should be exactly 10 digits.');
                 return false;
             }
-    
+
             if (message === '') {
                 alert('Please enter your message.');
                 return false;
             }
-    
+
             // If validation passes, submit form via AJAX
             $.ajax({
                 url: "https://script.google.com/macros/s/AKfycbzyPPTsyASHwCz6n926EU52kbiqkZzX1hr7kN-8ArwuqFRqe7-mOxanSpg_22cwKiabzg/exec",
@@ -583,13 +588,13 @@
                         'padding': '10px',
                         'margin-top': '20px'
                     }).text('Form submitted successfully!');
-    
+
                     // Show alert for form submission success
                     alert('Form submitted!');
-    
+
                     // Clear form fields
                     $('#contactForm')[0].reset();
-    
+
                     // Hide the success message after 3 seconds
                     setTimeout(function () {
                         successMessage.hide();
@@ -601,8 +606,17 @@
             });
         });
     </script>
-    
 
+
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            // offset: 300,
+            duration: 1000,
+        });
+    </script>
 
 </body>
 
