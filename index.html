@@ -40,7 +40,7 @@
     <!-- header start -->
     <header data-scroll-section class="bg-[#BC6C25] w-100 position-absolute top-0 z-10 left-0 shadow ">
         <!-- navbar start -->
-        <nav class="">
+        <nav class="nav">
             <div class="container mx-auto px-4 ">
                 <div class="navbar flex items-center justify-between  text-white">
                     <ul class="nav-links gap-4 order-0 text-[22px] d-none d-md-flex">
@@ -68,7 +68,7 @@
 
                     <div class="logo ">
                         <a href="./index.html">
-                            <img class="" src="./assets/images/logo_white.png" alt="">
+                            <img src="./assets/images/logo_dark.png" alt="">
                         </a>
                     </div>
 
@@ -118,7 +118,8 @@
         </nav>
 
         <!-- offcanvasRight - navbar - nav-right - menu start -->
-        <div class="offcanvas-end offcanvas" id="offcanvasRight" tabindex="-1">
+        <div class="offcanvas offcanvas-end w-fit" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"
+            data-bs-scroll="true" data-bs-backdrop="false">
             <div class="offcanvas-header"></div>
             <div class="offcanvas-title"></div>
 
@@ -135,7 +136,7 @@
                         data-bs-toggle="offcanvas"></button>
                 </div>
 
-                <h2 class="mt-4 fw-semibold text-[22px] text-capitalize">we make the Best burger in your town</h2>
+                <h2 class="mt-4 fw-semibold text-[22px] text-capitalize">We provide best healthy and tasty foods</h2>
 
                 <ul class="nav-links mt-4 gap-2 order-0 text-[18px] d-flex flex-column d-md-none">
                     <a href="./index.html">Home</a>
@@ -159,9 +160,11 @@
 
                 </ul>
 
-                <p class="mt-4">he mouth-watering aroma of sizzling burgers now fills the streets of Birmingham thanks
-                    to the
-                    passionate pursuit of three brothers, the British founders of Fazfood.</p>
+                <p class="mt-4">
+                    Assorted cookies, Digestive Mukhwas, Healthy Tonic, Millet flour, and many other Bakery items made
+                    with Millet flour and Jaggery (Brownies, cakes, Muffins, etc.), as well as many other delicious
+                    seasonal items are available.
+                </p>
 
                 <div class="address mt-4">
                     Citylight, Surat,
@@ -177,25 +180,6 @@
                         sonunawal02@gmail.com
                     </a>
                 </div>
-
-                <div class="photo-collage">
-                    <div class="row">
-                        <div class="col-4">
-
-                        </div>
-
-                        <div class="col-4"></div>
-
-                        <div class="col-4"></div>
-
-                        <div class="col-4"></div>
-
-                        <div class="col-4"></div>
-
-                        <div class="col-4"></div>
-                    </div>
-                </div>
-
             </div>
         </div>
         <!-- offcanvasRight - navbar - nav-right - menu end -->
@@ -501,7 +485,7 @@
                         </li>
 
                         <li class="hover:text-[#fefae0]">
-                            <a href="./products.html">Seasonable items</a>
+                            <a href="./products.html">Winter items</a>
                         </li>
                     </ul>
                 </div>
@@ -536,7 +520,7 @@
             <hr / class="mt-3">
 
             <p class="copywrite text-center flex flex-wrap items-center justify-center w-100 mt-3">
-                Copyright © 2023 <span class="text-[#DDA15E] ms-1"> Mehul Nawal</span>All rights reserved
+                Copyright © 2023 <span class="text-[#DDA15E] mx-2"> Mehul Nawal</span>All rights reserved
             </p>
         </div>
     </footer>
@@ -661,7 +645,6 @@
 
     content
     images
-
 
     <!-- aos script  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

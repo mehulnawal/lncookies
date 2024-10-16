@@ -45,10 +45,36 @@ body {
     .product-right {
         font-family: var(--poppins-font);
 
+        .product-image {
+            position: relative;
+        }
+
         .product-name {
             font-family: var(--lora-font);
         }
     }
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.product .product-right .col:hover .product-image:before {
+    height: 100%;
 }
 
 /* product end */
