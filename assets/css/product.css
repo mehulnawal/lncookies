@@ -54,7 +54,7 @@ body {
     transition: all 0.4s ease-in-out;
 }
 
-.product .product-right .col:hover .product-image:before {
+.product .product-right .product-parent:hover .product-image:before {
     height: 100%;
 }
 

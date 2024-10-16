@@ -984,10 +984,6 @@ video {
   width: fit-content;
 }
 
-.max-w-\[40\%\] {
-  max-width: 40%;
-}
-
 .flex-shrink {
   flex-shrink: 1;
 }
