@@ -20,27 +20,8 @@ body {
 /* banner start */
 
 /* product srt */
-.product {
+/* .product {
     font-family: var(--poppins-font);
-
-    .sidebar {
-        .sidebar-title {
-            font-family: var(--lora-font);
-        }
-
-        .product-li {
-            li {
-
-                a {
-                    transition: all 0.4s ease-in-out;
-                }
-
-                a:hover h4 {
-                    color: #B17B44;
-                }
-            }
-        }
-    }
 
     .product-right {
         font-family: var(--poppins-font);
@@ -53,7 +34,7 @@ body {
             font-family: var(--lora-font);
         }
     }
-}
+} */
 
 .product-image {
     position: relative;
