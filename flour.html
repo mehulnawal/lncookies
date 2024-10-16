@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | L. N. Cookies (Homemade)</title>
+    <title>Wholesome Flour | L. N. Cookies (Homemade)</title>
 
     <!-- locomotive css link -->
     <link rel="stylesheet" href="./assets/css/locomotive-scroll-cs.css">
 
-    <!-- aos scroll link -->
+    <!-- aos cdn link -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- swiper-js css link -->
@@ -34,11 +34,11 @@
     <!-- main css link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!-- footer css link -->
-    <link rel="stylesheet" href="./assets/css/contact.css">
+    <!-- product css link -->
+    <link rel="stylesheet" href="./assets/css/product.css">
 </head>
 
-<body>
+<body class="bg-[#FBF8F2]">
 
     <!-- header start -->
     <header data-scroll-section class="bg-[#BC6C25] w-100 position-absolute top-0 z-10 left-0 shadow ">
@@ -146,16 +146,16 @@
                     </li>
 
                     <!-- <li class="li-hover disabled" aria-disabled="true">
-                        <a href="./about.html">About us</a>
-                    </li> -->
+                    <a href="./about.html">About us</a>
+                </li> -->
 
                     <li class="li-hover">
                         <a href="./products.html">Products</a>
                     </li>
 
                     <!-- <li class="li-hover">
-                        <a href="./exhibition.html">Exhibition</a>
-                    </li> -->
+                    <a href="./exhibition.html">Exhibition</a>
+                </li> -->
 
                     <li class="li-hover">
                         <a href="./contact.html">Contact</a>
@@ -192,111 +192,150 @@
     <!-- header start -->
 
     <!-- main srt -->
-    <main class="">
+    <main data-scroll-section class=" h-100 mb-20">
 
         <!-- banner start -->
         <section
             class="banner-main w-100 bg-[url('../images/contact-banner.jpg')] bg-cover bg-left h-[400px]  flex items-center justify-center text-white">
-            <h3 class="text-5xl">Contact Us</h3>
+            <h3 class="text-5xl">Products</h3>
         </section>
         <!-- banner end -->
 
-        <!-- get in touch with us start -->
-        <section class="mt-20 get">
-            <div class="container">
-                <h4 class="text-4xl text-uppercase font-semibold text-center">Get in touch with us</h4>
+        <!-- categories srt -->
+        <section>
+            <div class="categories py-4 px-2 border ">
+                <div class="container flex items-center gap-3">
+                    <h4 class=" text-2xl text-[#BC6C25]">Categories</h4>
+                    <i data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button"
+                        class="bi bi-view-list text-2xl"></i>
+                </div>
+            </div>
 
-                <div class="row mt-16">
-                    <div class="col-lg-4 col-md-6 col-12 px-3" data-aos="fade">
-                        <div class="rounded text-center h-100 pt-3 border-1 border-gray-700">
-                            <i class="bi bi-house-door text-[35px] "></i>
+            <div class="breadcumb">
+                <a href="./index.html">Home</a>
 
-                            <h5 class="font-bold my-2 text-[21px] text-uppercase">Address</h5>
+                <i class="bi bi-chevron-right"></i>
 
-                            <div class="address">
-                                Citylight,
-                                Surat,
-                                Gujarat-395007.
-                            </div>
-                        </div>
+                <a href="./products.html">Products</a>
+
+                <i class="bi bi-chevron-right"></i>
+
+                <span>Wholesome Flour</span>
+            </div>
+
+            <div class="product-heading">
+                <h1 class="text-center fw-semibold fs-1 text-[#bc6c25] underline underline-offset-8 my-4">Wholesome
+                    Flour</h1>
+            </div>
+
+            <div class="offcanvas offcanvas-start bottom-0 vh-50 shadow-lg" data-bs-scroll="false"
+                data-bs-backdrop="false" tabindex="-1" id="offcanvasExample">
+                <div class="offcanvas-body px-0">
+
+                    <div class="d-flex items-center justify-between shadow p-3">
+
+                        <h2 class="text-2xl text-[#BC6C25]">Categories</h2>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
-                    <div class="col-lg-4 mt-5 mt-lg-0 col-md-6 col-12 px-3" data-aos="fade">
-                        <div class="rounded text-center h-100 border-1 border-gray-700  pt-3">
-                            <i class="bi bi-phone text-[35px]"></i>
+                    <div class="mt-lg-0 mt-4 px-4 flex justify-md-center justify-start">
+                        <ul class="mt-3">
+                            <li class="hover:text-[#bc6c25]">
+                                <a href="./products.html">Assorted Cookies</a>
+                            </li>
 
-                            <h5 class="font-bold my-2 text-[21px] text-uppercase">Get in touch</h5>
+                            <li class="hover:text-[#bc6c25] mt-3">
+                                <a href="./tonic.html">Healthy tonic</a>
+                            </li>
 
-                            <div class="address">
-                                <span class="mt-3">Mo.:</span><a href="tel:9978916262"
-                                    class="ms-2 text-[#DDA15E] font-semibold">+91
-                                    99789
-                                    16262</a>
+                            <li class="text-[#bc6c25] mt-3">
+                                <a href="./flour.html">Wholesome flour</a>
+                            </li>
 
-                                <br />
+                            <li class="hover:text-[#bc6c25] mt-3">
+                                <a href="./mukhwass.html">Mukhwass</a>
+                            </li>
 
-                                <a href="mailto:sonunawal02@gamil.com" target="_blank">sonunawal02@gamil.com</a>
+                            <li class="hover:text-[#bc6c25]  mt-3">
+                                <a href="./millet.html">Sugar-Free Millet Treats</a>
+                            </li>
+
+                            <li class="hover:text-[#bc6c25] mt-3">
+                                <a href="./winter.html">Winter items</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- categories end -->
+
+        <!-- products section srt -->
+        <section class="product mt-10 flex flex-wrap">
+
+            <div class="product-right mt-3">
+                <div class="container">
+                    <div class="row gx-3 mx-auto">
+
+                        <div class="product-parent col-lg-4 col-md-6 col-12 ">
+                            <div class="h-100 text-center ">
+
+                                <div class="product-image rounded-t-2xl">
+                                    <img class="w-[250px] mx-auto" src="./assets/images/products-img-sample.png" alt="">
+                                </div>
+
+                                <div class=" bg-white h-fit rounded-b-2xl">
+
+                                    <h3 class="product-name text-[21px] fw-semibold ">Assorted Cookies</h3>
+
+                                    <p class="product-details px-4 my-4 text-justify ">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non,
+                                        eius
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non,
+                                        eius
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non,
+                                        eius
+                                        Lorem ipsum dolor, sit amet consectetur
+
+
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-4 mt-5 mt-lg-0 col-md-6 col-12 px-3" data-aos="fade">
-                        <div class="rounded text-center border-1 border-gray-700 h-100 pt-3">
-                            <i class="bi bi-clock text-[35px]"></i>
+                        <div class="product-parent col-lg-4 col-md-6 col-12 ">
+                            <div class="h-100 text-center ">
 
-                            <h5 class="font-bold my-2 text-[21px] text-uppercase">House of operation</h5>
+                                <div class="product-image rounded-t-2xl">
+                                    <img class="w-[250px] mx-auto" src="./assets/images/products-img-sample.png" alt="">
+                                </div>
 
-                            <div class="">
-                                Monday-Saturday: 8am - 6pm
+                                <div class=" bg-white h-fit rounded-b-2xl">
+
+                                    <h3 class="product-name text-[21px] fw-semibold ">Chocolate cookies</h3>
+
+                                    <p class="product-details px-4 my-4 text-justify ">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non,
+                                        eius
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non,
+                                        eius
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus non,
+                                        eius
+                                        Lorem ipsum dolor, sit amet consectetur
+
+
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- get in touch with us end -->
-
-        <!-- Send A Message start -->
-        <div class="message mt-16" data-aos="zoom-in">
-            <h3 class="text-[30px] font-semibold text-center">Send A Message</h3>
-
-            <div class="container">
-
-                <form id="contactForm" class="mt-4 mx-auto"
-                    action="https://script.google.com/macros/s/AKfycbzyPPTsyASHwCz6n926EU52kbiqkZzX1hr7kN-8ArwuqFRqe7-mOxanSpg_22cwKiabzg/exec"
-                    method="post">
-                    <div class="row">
-                        <div class="col-lg-6 col-12 px-3">
-                            <input class="form-control mb-4 border-1 border-gray-700 bg-transparent outline-none py-3"
-                                type="text" name="name" id="name" placeholder="Name">
-                        </div>
-
-                        <div class="col-lg-6 col-12 px-3">
-                            <input class="form-control mb-4 border-1 border-gray-700 bg-transparent outline-none py-3"
-                                type="text" name="number" id="number" placeholder="Number">
-                        </div>
-
-                        <div class="col-12 px-3">
-                            <input class="form-control mb-4 border-1 border-gray-700 bg-transparent outline-none py-3"
-                                type="text" name="email" id="email" placeholder="Email">
-                        </div>
-
-                        <div class="col-12">
-                            <textarea
-                                class="form-control mb-4 border-1 border-gray-700 bg-transparent outline-none py-3"
-                                name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                        </div>
-                    </div>
-
-                    <button class="btn text-bg-success w-100 p-2" type="submit" name="submit">Submit</button>
-
-                </form>
-            </div>
-        </div>
-        <!-- Send A Message end -->
+        <!-- products section end -->
     </main>
     <!-- main end -->
-
 
     <!-- footer start -->
     <footer data-scroll-section class=" bg-gray-900 bg-cover text-white h-100 w-100 py-5 px-3">
@@ -504,104 +543,13 @@
     <!-- main script link -->
     <script src="./assets/js/gsap.js"></script>
 
-    <!-- jquery cdn  -->
-    <script src="./assets/js/jquery-3.7.1.min.js"></script>
-
-    <!--excel sheet data -  js script  -->
-    <script>
-        $('#contactForm').on('submit', function (event) {
-            event.preventDefault(); // Prevent the default form submission
-
-            // Perform validation
-            const name = $('input[name="name"]').val().trim();
-            const email = $('input[name="email"]').val().trim();
-            const message = $('textarea[name="message"]').val().trim();
-            const number = $('input[name="number"]').val().trim();
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            const nameRegex = /^[A-Za-z\s]+$/; // Only letters and spaces allowed
-            const numberRegex = /^[0-9]{10}$/; // Exactly 10 digits allowed
-
-            // Reset previous success message
-            const successMessage = $('#successMessage');
-            successMessage.hide();
-
-            // Validate form inputs
-            if (name === '') {
-                alert('Please enter your name.');
-                return false;
-            }
-
-            if (!nameRegex.test(name)) {
-                alert('Name should only contain letters and spaces.');
-                return false;
-            }
-
-            if (email === '' || !emailRegex.test(email)) {
-                alert('Please enter a valid email.');
-                return false;
-            }
-
-            if (number === '') {
-                alert('Please enter your number.');
-                return false;
-            }
-
-            if (!numberRegex.test(number)) {
-                alert('Number should be exactly 10 digits.');
-                return false;
-            }
-
-            if (message === '') {
-                alert('Please enter your message.');
-                return false;
-            }
-
-            // If validation passes, submit form via AJAX
-            $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbzyPPTsyASHwCz6n926EU52kbiqkZzX1hr7kN-8ArwuqFRqe7-mOxanSpg_22cwKiabzg/exec",
-                data: $('#contactForm').serialize(),
-                method: "POST",
-                success: function (response) {
-                    // Show success message
-                    successMessage.css({
-                        'display': 'block',
-                        'color': 'white',
-                        'background-color': 'green',
-                        'font-size': '24px',
-                        'text-align': 'center',
-                        'padding': '10px',
-                        'margin-top': '20px'
-                    }).text('Form submitted successfully!');
-
-                    // Show alert for form submission success
-                    alert('Form submitted!');
-
-                    // Clear form fields
-                    $('#contactForm')[0].reset();
-
-                    // Hide the success message after 3 seconds
-                    setTimeout(function () {
-                        successMessage.hide();
-                    }, 3000);
-                },
-                error: function (err) {
-                    alert('There was an error submitting the form.');
-                }
-            });
-        });
-    </script>
-
-
-    <!-- aos script -->
+    <!-- aos script  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
     <script>
         AOS.init({
-            // offset: 300,
             duration: 1000,
         });
     </script>
-
 </body>
 
 </html>
