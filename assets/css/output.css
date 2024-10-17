@@ -748,6 +748,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -756,6 +761,11 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .my-4 {
@@ -819,8 +829,8 @@ video {
   margin-top: 1.25rem;
 }
 
-.ms-auto {
-  margin-inline-start: auto;
+.ms-0 {
+  margin-inline-start: 0px;
 }
 
 .box-border {
@@ -2882,11 +2892,6 @@ video {
 .hover\:text-\[\#bc6c25\]:hover {
   --tw-text-opacity: 1;
   color: rgb(188 108 37 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#fefae0\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(254 250 224 / var(--tw-text-opacity));
 }
 
 .hover\:text-black:hover {

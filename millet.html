@@ -124,11 +124,10 @@
         <div class="offcanvas offcanvas-end w-fit" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"
             data-bs-scroll="true" data-bs-backdrop="false">
             <div class="offcanvas-header"></div>
-            <div class="offcanvas-title"></div>
 
             <div class="offcanvas-body px-8">
 
-                <div class="flex items-center justify-between">
+                <div class="flex items-center justify-between ms-0">
 
                     <div class="logo w-100">
                         <img class="w-[60px]" src="./assets/images/logo_dark.png" alt="">
@@ -139,49 +138,55 @@
                         data-bs-toggle="offcanvas"></button>
                 </div>
 
-                <h2 class="mt-4 fw-semibold text-[22px] text-capitalize">We provide best healthy and tasty foods</h2>
-
                 <ul class="nav-links mt-4 gap-2 order-0 text-[18px] d-flex flex-column d-md-none">
-                    <a href="./index.html">Home</a>
+                    <li class="fs-4">
+                        <a href="./index.html">Home</a>
                     </li>
 
-                    <!-- <li class="li-hover disabled" aria-disabled="true">
-                    <a href="./about.html">About us</a>
-                </li> -->
+                    <!-- <li class="li-hover fs-4">
+               <a href="./about.html">About us</a>
+              </li> -->
 
-                    <li class="li-hover">
+                    <li class="li-hover fs-4">
                         <a href="./products.html">Products</a>
                     </li>
 
-                    <!-- <li class="li-hover">
-                    <a href="./exhibition.html">Exhibition</a>
-                </li> -->
+                    <!-- <li class="li-hover fs-4">
+               <a href="./exhibition.html">Exhibition</a>
+           </li> -->
 
-                    <li class="li-hover">
+                    <li class="li-hover fs-4">
                         <a href="./contact.html">Contact</a>
                     </li>
 
                 </ul>
 
-                <p class="mt-4">
-                    Assorted cookies, Digestive Mukhwas, Healthy Tonic, Millet flour, and many other Bakery items made
-                    with Millet flour and Jaggery (Brownies, cakes, Muffins, etc.), as well as many other delicious
-                    seasonal items are available.
-                </p>
+                <div class="d-md-block d-none">
 
-                <div class="address mt-4">
-                    Citylight, Surat,
-                    Gujarat-395007.
+                    <h2 class="mt-4 fw-semibold text-[22px] text-capitalize">We provide best healthy and tasty foods
+                    </h2>
 
-                    <br />
+                    <p class="mt-4">
+                        Assorted cookies, Digestive Mukhwas, Healthy Tonic, Millet flour, and many other Bakery items
+                        made
+                        with Millet flour and Jaggery (Brownies, cakes, Muffins, etc.), as well as many other delicious
+                        seasonal items are available.
+                    </p>
 
-                    <span>Mo.:</span><a href="tel:9978916262" class="ms-2 text-[#DDA15E]">+91 99789 16262</a>
-                </div>
+                    <div class="address mt-4">
+                        Citylight, Surat,
+                        Gujarat-395007.
 
-                <div class="mail mt-3 text-[19px]">
-                    <a href="mailto: sonunawal02@gmail.com" class="text-[#DDA15E]">
-                        sonunawal02@gmail.com
-                    </a>
+                        <br />
+
+                        <span>Mo.:</span><a href="tel:9978916262" class="ms-2 text-[#DDA15E]">+91 99789 16262</a>
+                    </div>
+
+                    <div class="mail mt-3 text-[19px]">
+                        <a href="mailto: sonunawal02@gmail.com" class="text-[#DDA15E]">
+                            sonunawal02@gmail.com
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -204,47 +209,18 @@
         <!-- categories srt -->
         <section>
             <div class="categories py-4 px-2 border ">
-                <div class="container flex items-center gap-3">
-                    <h4 class=" text-2xl text-[#BC6C25]">Categories</h4>
-                    <i data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button"
-                        class="bi bi-view-list text-2xl"></i>
-                </div>
-            </div>
+                <div class="container">
+                    <h4 class="fs-3 text underline underline-offset-8 text-2xl text-[#BC6C25]">Categories</h4>
+                    <!-- <i data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button"
+                        class="bi bi-view-list text-2xl"></i> -->
 
-            <div class="breadcumb">
-                <a href="./index.html">Home</a>
-
-                <i class="bi bi-chevron-right"></i>
-
-                <a href="">Products</a>
-
-                <i class="bi bi-chevron-right"></i>
-
-                <span>Sugar-Free Millet Treats</span>
-            </div>
-
-            <div class="product-heading">
-                <h1 class="text-center fw-semibold fs-1 text-[#bc6c25] underline underline-offset-8 my-4">Sugar-Free Millet Treats</h1>
-            </div>
-
-            <div class="offcanvas offcanvas-start bottom-0 vh-50 shadow-lg" data-bs-scroll="false"
-                data-bs-backdrop="false" tabindex="-1" id="offcanvasExample">
-                <div class="offcanvas-body px-0">
-
-                    <div class="d-flex items-center justify-between shadow p-3">
-
-                        <h2 class="text-2xl text-[#BC6C25]">Categories</h2>
-
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-
-                    <div class="mt-lg-0 mt-4 px-4 flex justify-md-center justify-start">
+                    <div class="mt-2 fs-5 flex justify-md-center justify-start">
                         <ul class="mt-3">
                             <li class="hover:text-[#bc6c25]">
                                 <a href="./products.html">Assorted Cookies</a>
                             </li>
 
-                            <li class="hovertext-[#bc6c25] mt-3">
+                            <li class="hover:text-[#bc6c25] mt-3">
                                 <a href="./tonic.html">Healthy tonic</a>
                             </li>
 
@@ -267,6 +243,38 @@
                     </div>
                 </div>
             </div>
+
+            <div class="breadcumb mx-4 my-3 fs-6">
+                <a href="./index.html">Home</a>
+
+                <i class="bi bi-chevron-right"></i>
+
+                <a href="">Products</a>
+
+                <i class="bi bi-chevron-right "></i>
+
+                <span class="text-[#BC6C25]">Sugar free Millets treats</span>
+            </div>
+
+            <div class="product-heading">
+                <h1 class="text-center fw-semibold fs-1 text-[#bc6c25] underline underline-offset-8 my-4">Winter items
+                </h1>
+            </div>
+
+            <!-- <div class="offcanvas offcanvas-start bottom-0 vh-50 shadow-lg" data-bs-scroll="false"
+                data-bs-backdrop="false" tabindex="-1" id="offcanvasExample">
+                <div class="offcanvas-body px-0">
+
+                    <div class="d-flex items-center justify-between shadow p-3">
+
+                        <h2 class="text-2xl text-[#BC6C25]">Categories</h2>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    
+                </div>
+            </div> -->
         </section>
         <!-- categories end -->
 
