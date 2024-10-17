@@ -793,6 +793,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.ms-0 {
+  margin-inline-start: 0px;
+}
+
 .ms-2 {
   margin-inline-start: 0.5rem;
 }
@@ -827,10 +831,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.ms-0 {
-  margin-inline-start: 0px;
 }
 
 .box-border {
