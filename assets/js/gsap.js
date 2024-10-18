@@ -62,21 +62,21 @@ gsap.to('.single-cookie3', {
         trigger: '.single-cookie3',
         scroller: 'body',
         // markers: true,
-        start: 'top 30%',
-        end: 'top 20%',
+        start: 'top 20%',
+        end: 'top 8%',
         scrub: 2,
     }
 })
 
 gsap.to('.single-cookie4', {
     marginLeft: '20px',
-    marginTop: '7%',
+    marginTop: '5%',
     duration: 2,
     scrollTrigger: {
         trigger: '.single-cookie4',
         scroller: 'body',
         // markers: true,
-        start: 'top 45%',
+        start: 'top 40%',
         end: 'top 30%',
         scrub: 2,
     }
