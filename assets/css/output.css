@@ -769,6 +769,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .-ms-2 {
   margin-inline-start: -0.5rem;
 }

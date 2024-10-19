@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | L. N. Cookies (Homemade)</title>
+    <title>About us | L. N. Cookies (Homemade)</title>
 
     <!-- locomotive css link -->
     <link rel="stylesheet" href="./assets/css/locomotive-scroll-cs.css">
@@ -36,9 +36,12 @@
 
     <!-- main css link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- about css link -->
+    <link rel="stylesheet" href="./assets/css/about.css">
 </head>
 
-<body>
+<body class="bg-[#FBF8F2]">
 
     <!-- header start -->
     <header data-scroll-section class="bg-[#BC6C25] w-100 position-absolute top-0 z-10 left-0 shadow ">
@@ -59,9 +62,9 @@
                             <a href="./products.html">Products</a>
                         </li>
 
-                        <!-- <li class="li-hover">
+                        <li class="li-hover">
                             <a href="./exhibition.html">Exhibition</a>
-                        </li> -->
+                        </li>
 
                         <li class="li-hover">
                             <a href="./contact.html">Contact</a>
@@ -89,20 +92,6 @@
                             <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                 data-bs-custom-class="custom-tooltip" data-bs-title="Fullscreen exit">
                                 <i class="bi bi-fullscreen-exit"></i>
-                            </a>
-                        </li>
-
-                        <li class="">
-                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                data-bs-custom-class="custom-tooltip" data-bs-title="Switch to dark theme">
-                                <i class="bi bi-brightness-high"></i>
-                            </a>
-                        </li>
-
-                        <li class="">
-                            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                data-bs-custom-class="custom-tooltip" data-bs-title="Switch to light theme">
-                                <i class="bi bi-moon"></i>
                             </a>
                         </li>
 
@@ -143,17 +132,17 @@
                         <a href="./index.html">Home</a>
                     </li>
 
-                    <!-- <li class="li-hover fs-4">
-               <a href="./about.html">About us</a>
-              </li> -->
+                    <li class="li-hover fs-4">
+                        <a href="./about.html">About us</a>
+                    </li>
 
                     <li class="li-hover fs-4">
                         <a href="./products.html">Products</a>
                     </li>
 
-                    <!-- <li class="li-hover fs-4">
-               <a href="./exhibition.html">Exhibition</a>
-           </li> -->
+                    <li class="li-hover fs-4">
+                        <a href="./exhibition.html">Exhibition</a>
+                    </li>
 
                     <li class="li-hover fs-4">
                         <a href="./contact.html">Contact</a>
@@ -196,12 +185,91 @@
     </header>
     <!-- header start -->
 
-    <main>
-        
+    <main data-scroll-section>
+
+        <!-- banner start -->
+        <section
+            class="banner-main w-100 bg-[url('../images/contact-banner.jpg')] bg-cover bg-left h-[400px]  flex items-center justify-center text-white">
+            <h3 class="text-5xl">About Us</h3>
+        </section>
+        <!-- banner end -->
+
+        <!-- meet our chef srt -->
+        <div class="chef my-5">
+            <div class="container">
+
+                <h2 class="fs-2 text-center my-4 underline underline-offset-8">Meet Our Chef</h2>
+
+                <div class="row justify-center items-center">
+
+                    <div class="col-md-6 col-12 chef-left mx-auto px-5"></div>
+
+                    <div class="col-md-6 col-12 px-4 mt-4 mt-md-0">
+                        <p class="lh-lg">
+                            The Chef's Inspiration is driven by the belief that many health problems can find their
+                            cure
+                            in
+                            our kitchen, through the consumption of homemade, healthy, and delicious food. Join us
+                            on
+                            our
+                            journey where every dish is crafted to optimize your health and wellbeing, proving that
+                            eating
+                            well can be both a delight and a remedy. Embrace the transformative power of nutritious
+                            and
+                            flavorful homemade meals with us.
+                            The chief inspiration
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- meet our chef end -->
+
+        <!-- mission srt -->
+        <div class="mission mt-5">
+            <div class="container">
+
+                <h2 class="fs-2 text-center my-4 underline underline-offset-8">Our Mission</h2>
+
+                <div class="row my-4">
+
+                    <div class="col-md-6 col-12 px-5">
+                        <p class="lh-lg"> At L. N. Cookies (Homemade), our mission is to promote wellness through
+                            delicious, homemade
+                            treats like atta cookies, mukhwass, and digestive juices. Explore our website to discover a
+                            range of tasty and nutritious options designed to keep you feeling great while satisfying
+                            your cravings. Join us on a journey towards better health and happiness, one
+                            wholesome bite at a time.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 col-12 flex justify-md-end px-5 mission-right mx-auto"></div>
+                </div>
+            </div>
+        </div>
+        <!-- mission end -->
+
+        <!-- owner srt -->
+        <div class="owner my-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 owner-img flex justify-md-end px-5 mission-right mx-auto rounded-lg">
+                        <div class="owner-img"></div>
+                    </div>
+
+                    <div class="col-md-6 col-12 px-5 text-center mx-auto mt-3 mt-md-0">
+                        <h2 class="fw-semibold fs-3 ">Sonu Nawal And Rajesh Nawal</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- owner end -->
+
     </main>
 
     <!-- footer start -->
-    <footer data-scroll-section class=" bg-gray-900 bg-cover text-white h-100 w-100 py-5 px-3">
+    <footer data-scroll-section class=" bg-gray-900 mt-10 bg-cover text-white h-100 w-100 py-5 px-3">
         <div class="container">
 
             <div class="row items-start">

@@ -1,0 +1,72 @@
+.chef .chef-left,
+.mission .mission-right {
+    height: 350px;
+    width: 350px;
+    background-color: #BC6C25;
+    background: url('../images/chef.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    animation: circle 5s linear infinite;
+}
+
+.mission .mission-right {
+    height: 350px;
+    width: 400px;
+    background: url('../images/cookies/assorted-cookies.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.owner-img {
+    background: url('../images/owner.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+@keyframes circle {
+    0% {
+        border-radius: 50%;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+    25% {
+
+        border-top-left-radius: 90%;
+        border-top-right-radius: 65%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+    50% {
+        border-top-left-radius: 85%;
+        border-top-right-radius: 60%;
+        border-bottom-left-radius: 70%;
+        border-bottom-right-radius: 15%;
+    }
+
+    75% {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 15%;
+    }
+
+    100% {
+
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+}
