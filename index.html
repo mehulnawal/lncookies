@@ -42,8 +42,8 @@
     <!-- <div class="cursor d-md-block d-none"></div> -->
     <!-- <div class="cursor2"></div> -->
 
-    <!-- header start -->
-    <header data-scroll-section class="bg-[#BC6C25] w-100 position-absolute top-0 z-10 left-0 shadow ">
+     <!-- header start -->
+     <header data-scroll-section class="bg-[#BC6C25] w-100 position-absolute top-0 z-10 left-0 shadow ">
         <!-- navbar start -->
         <nav class="nav">
             <div class="container mx-auto px-4 ">
@@ -53,9 +53,9 @@
                             <a href="./index.html">Home</a>
                         </li>
 
-                        <!-- <li class="li-hover">
+                        <li class="li-hover">
                             <a href="./about.html">About us</a>
-                        </li> -->
+                        </li>
 
                         <li class="li-hover">
                             <a href="./products.html">Products</a>
@@ -252,7 +252,7 @@
         <!-- banner end -->
 
         <!-- why choose us start -->
-        <section class="choose mt-20">
+        <section class="choose mt-20" id="target-section">
             <div class="container mx-auto px-4 ">
 
                 <h4 class="text-center text-[21px] fw-semibold text-[#DDA15E]" data-aos="slide-up">Why choose us ?
@@ -323,7 +323,7 @@
 
                 <h2 class="text-center text-[32px] fw-semibold mt-3" data-aos="slide-up">Our all time top products</h2>
 
-                <div class="row mt-10">
+                <div class="row mt-10 align-items-baseline">
                     <div class="col-lg-3 px-3 group">
                         <div
                             class="group-hover:border bg-whit group-hover:border-white group-hover:bg-[#B17B44] group-hover:text-white  transition-all duration-[0.4s] ease-in-out h-100 rounded-2xl p-3 -z-20 ">
@@ -334,11 +334,12 @@
                                     class="position-absolute top-0 left-[50%] translate-middle-x -z-[1] h-64 hidden group-hover:block transition-all ease-in-out duration-[0.6s]"
                                     alt=""> -->
 
-                                <img src="./assets/images/sample-img-2.png" class="mx-auto " alt="">
+                                <img src="./assets/images/cookies/assorted-cookies-removebg-preview.png"
+                                    class="mx-auto " alt="">
 
                             </div>
 
-                            <h5 class="mt-4 fw-semibold text-[24px] text-center">Cookies</h5>
+                            <h5 class="mt-4 fw-semibold text-[24px] text-center">Assorted Cookies</h5>
 
                             <p class="mt-4 text-[20px] text-justify">Made up of lost of care and wheat and with natural
                                 ingredients. Avaliable in different flavours - Chocolate, Ajwain, Dry-Fruits and many
@@ -354,11 +355,11 @@
                             <div class="position-relative z-10">
 
 
-                                <img src="./assets/images/sample-img-2.png" class="mx-auto" alt="">
+                                <img src="./assets/images/protien_bite.png" class="mx-auto" alt="">
 
                             </div>
 
-                            <h5 class="mt-4 fw-semibold text-[24px] text-center">Digestive Mukhwaas</h5>
+                            <h5 class="mt-4 fw-semibold text-[24px] text-center">Protein Bite</h5>
 
                             <p class="mt-4 text-[20px] text-justify">Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Rem dolor id quia, consectetur adipisci ratione excepturi corporis</p>
@@ -372,7 +373,7 @@
 
                             <div class="position-relative z-10">
 
-                                <img src="./assets/images/sample-img-2.png" class="mx-auto" alt="">
+                                <img src="./assets/images/brookies.jpg" class="mx-auto" alt="">
 
                             </div>
 
@@ -406,30 +407,6 @@
             </div>
         </section>
         <!-- best products end -->
-
-        <!-- photos gallery start -->
-        <!-- slide 1 start -->
-        <section class="gallery bg-[#EEEEEE]">
-            <!-- <div class="container"> -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                </div>
-                <div class="swiper-pagination"></div>
-                <!-- </div> -->
-
-            </div>
-        </section>
-        <!-- slide 1 end -->
-        <!-- photos gallery end -->
 
     </main>
     <!-- main end -->
@@ -578,7 +555,7 @@
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 30,
-            loop: true,
+            // loop: true,
             // autoplay: {
             //     delay: 2500,
             //     disableOnInteraction: false,
